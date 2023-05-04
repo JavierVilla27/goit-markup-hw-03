@@ -170,6 +170,11 @@ h1 {
 
     color: #FFFFFF;
 }
+ul {
+    text-decoration: none;
+    list-style: none;
+
+}
 
 .background1 {
     /* Bg */
