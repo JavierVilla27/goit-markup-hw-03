@@ -2,17 +2,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
 
 
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
 body {
-    
+   
     font-family: 'roboto', sans-serif;
     color: #2F303A;
+  
  
 }
 
@@ -36,7 +37,7 @@ a:hover {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
-    font-size: 26px;
+    font-size: 28px;
     line-height: 31px;
     /* identical to box height */
 
@@ -579,15 +580,15 @@ position: absolute;
 }
 .list2 {
     /* filtros */
-   display: flex;
-   justify-content: space-around;
-   flex-direction: row; 
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row; 
     align-items: baseline;
     list-style: none;
 }
 
 .button-2 {
-            width: auto;
+            width: 120px;
             height: 38px;
             background-color: #F5F4FA;
         /* shadow-middle */
