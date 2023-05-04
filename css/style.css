@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
 
 
 
@@ -10,9 +10,18 @@
 }
 
 body {
+    
     font-family: 'roboto', sans-serif;
     color: #2F303A;
+ 
 }
+
+a:hover {
+   
+ color: #2196F3;
+}
+
+
 
 .logo {
     /* Estudio Web */
@@ -131,8 +140,8 @@ body {
 }
 
 .number1 {
-    position: absolute;
-    width: 118px;
+    position: relative;
+    width: 120px;
     height: 16px;
     left: 1263px;
     top: 32px;
@@ -144,7 +153,7 @@ body {
     line-height: 16px;
     letter-spacing: 0.02em;
 
-    color: #757575;
+    color: #1a0d0d;
 }
 
 h1 {
