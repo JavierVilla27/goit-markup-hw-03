@@ -13,7 +13,8 @@ body {
    
     font-family: 'roboto', sans-serif;
     color: #2F303A;
-  
+    width: 150%;
+    overflow-x: hidden;
  
 }
 
