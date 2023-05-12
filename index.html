@@ -1,124 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
-
-    <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
-  
-    <title>WebStudio</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title lang="en">WebStudio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
 </head>
+
 <body>
-    <header class="page-header">
-        
-        <nav class="nav1">
-            <a class="logo" href="./WebStudio"> WebStudio</a>
-            <!-- avegacion a otros sitios -->
-            <ul>
-                <li><a class="link1" href="./estudio">Estudio</a></li>
-                <li><a class="link2" href="./portafolio.html">Portafolio</a></li>
-                <li><a class="link3" href="./contactenos">Contactenos</a></li>
-            </ul>
+    <header class="header">
+        <div class="header-container container">
+            <nav class="header-nav">
+                <a class="header-logo link" href="./index.html" lang="en">
+                    <span class="accent">Web</span>Studio
+                </a>
+                <ul class="header-nav-list list">
+                    <li class="header-nav-item">
+                        <a class="link current" href="./index.html">Estudio</a>
+                    </li>
+                    <li class="header-nav-item">
+                        <a class="link" href="./portafolio.html">Portafolio</a>
+                    </li>
+                    <li class="header-nav-item">
+                        <a class="link" href="">Contactos</a>
+                    </li>
+                </ul>
             </nav>
-
-
-
-            
-            <ul>
-                <li class="adress1"><a href="./info@devstudio.com">info@devstudio.com</a></li>
-                <li class="number1">+52 55 5529 6000</li>
+            <ul class="contact list">
+                <li class="contact-item">
+                    <a class="contact-link link" href="mailto:info@devstudio.com" aria-label="Email">
+                    info@devstudio.com</a>
+                </li>
+                <li class="contact-item">
+                    <a class="contact-link link" href="tel:+52 55 5529 6000" aria-label="Phone">
+                    +52 55 5529 6000</a>
+                </li>
             </ul>
-    
-        <section class="background1">
-        <h1> Soluciones integrales para su negocio</h1>
-        
-        <button type="button" class="button-primary">Solicita nuestro servicio</button>
-        </section>
-
+        </div>
     </header>
-    <!-- seccion principal -->
     <main>
-        <section class="section1">
-            <div class="group1">
-        <ul class="benefits-list">
-        
-            <li class="feature1">
-            <h3>Atencion a los detalles</h3>
-            <p class="description"> Nos adentramos en todos los detalles y procesos de su negocio, para así desarrollar una solución a su medida.</p>
-            </li>
-        
-        
-            <li class="feature2">
-            <h3>Puntualidad</h3>
-            <p class="description">Con nosotros, usted puede sentirse seguro y protegido. Un principio importante de la empresa: respetar su tiempo y respetar los plazos acordados.</p>
-            </li>
-        
-        
-            <li class="feature3">
-            <h3>Planificacion</h3>
-            <p class="description">Usted podrá observar y participar en cada fase del desarrollo y aplicación de soluciones. </p>
-            </li>
-
-            <li class="feature4">
-            <h3>Tecnologia moderna</h3>
-            <p class="description">Usamos herramientas innovadoras para resolver las tareas asignadas. Es hora de simplificar los procesos laborales.</p>
-            </li>
-        
-        
-           
-        </ul>
-            </div>
-         </section>
-        <div class="container">
-        <section class="section2">
-        <h2 class="subtitle2">A que nos dedicamos</h2>
-        <ul>
-            <li><img class="photo1" src="./images/imagen1.jpg" alt="foto1" width="400"></li>
-            <li><img class="photo2" src="./images/imagen2.jpg" alt="foto2" width="400"></li>
-            <li><img class="photo3" src="./images/imagen3.jpg" alt="foto3" width="400"></li>
-        </ul>
-        </section>
-        </div>
-        <section class="section3">
-        <h2 class="subtitle3">Nuestro equipo</h2>
-            <div class="card1">
-                <img class="photo4" src="./images/imagen4.jpg" alt="foto4" width="270">
-                <h4>Andres Cubo</h4>
-                <p> Diseñador de productos</p>
-            </div>  
-            <div class="card2">
-                <img class="photo5" src="./images/imagen5.jpg" alt="foto5" width="270">
-                <h4>Carla Palacios</h4>
-                <p> Desarrolladora frontend</p>
-            </div> 
-            <div class="card3">   
-                <img class="photo6" src="./images/imagen6.jpg" alt="foto6" width="270">
-                <h4>Mario Dorado</h4>
-                <p> Marketing</p>
-            </div>
-            <div class="card4">   
-                <img class="photo7" src="./images/imagen7.jpg" alt="foto7" width="270" />
-                <h4>Pablo Mijangos</h4>
-                <p> Diseñador IU</p>
+        <!--Hero-->
+        <section class="hero section">
+            <div class="container">
+                <h1 class="hero-title">SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
+                <button class="hero-button" type="button">Solicite nuestro servicio</button>
             </div>
         </section>
-
+        
+        <section class="features section">
+            <div class="container">
+                <h2 class="visually-hidden">sobre nosotros</h2>
+                <ul class="features-list list card-set">
+                    <li class="features-list-item card-set-item">
+                        <h3 class="features-list-title">ATENCIÓN A LOS DETALLES</h3>
+                        <p class="features-list-text">
+                            Nos adentramos en todos los detalles y procesos de su negocio, para así desarrollar una solución a su medida.
+                        </p>
+                    </li>
+                    <li class="features-list-item card-set-item">
+                        <h3 class="features-list-title">PUNTUALIDAD</h3>
+                        <p class="features-list-text">
+                            Con nosotros, usted puede sentirse seguro y protegido. Un principio importante de la empresa respetar su tiempo y respetar los plazos acordados.
+                        </p>
+                    </li>
+                    <li class="features-list-item card-set-item">
+                        <h3 class="features-list-title">PLANIFICACIÓN</h3>
+                        <p class="features-list-text">
+                        Usted podrá observar y participar en cada fase del desarrollo y aplicación de soluciones.
+                        </p>
+                    </li>
+                    <li class="features-list-item card-set-item">
+                        <h3 class="features-list-title">TEGNOLOGÍA MODERNA</h3>
+                        <p class="features-list-text">
+                            Usamos herramientas innovadoras para resolver las tareas asignadas. Es hora de simplificar los procesos laborales.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        
+        <section class="works section">
+            <div class="container">
+                <h2 class="works-title">A que nos dedicamos</h2>
+                <ul class="works-list list">
+                    <li class="works-list-item">
+                        <img src="./images/imagen1.jpg" alt="imagen1" width="370" height="294" />
+                    </li>
+                    <li class="works-list-item">
+                        <img src="./images/imagen2.jpg" alt="imagen2" width="370" height="294" />
+                    </li>
+                    <li class="works-list-item">
+                        <img src="./images/imagen3.jpg" alt="imagen3" width="370" height="294" />
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!--Team-->
+        <section class="team section">
+            <div class="container">
+                <h2 class="team-title">Nuestro equipo</h2>
+                <ul class="team-list card-set list">
+                    <li class="team-list-item card-set-item">
+                        <img class="team-list-img" src="./images/imagen4.jpg" alt="imagen4" width="270"
+                            height="260" />
+                        <div class="team-list-block">
+                            <h3 class="team-list-title">Andres Cubo</h3>
+                            <p class="team-list-text" lang="en">Diseñador de productos</p>   
+                        </div>
+                    </li>
+                    <li class="team-list-item card-set-item">
+                        <img class="team-list-img" src="./images/imagen5.jpg" alt="imagen5" width="270"
+                            height="260" />
+                        <div class="team-list-block">
+                            <h3 class="team-list-title">Carla Palacios</h3>
+                            <p class="team-list-text" lang="en">Desarrolador frontend</p>    
+                        </div>
+                    </li>
+                    <li class="team-list-item card-set-item">
+                        <img class="team-list-img" src="./images/imagen6.jpg" alt="imagen6" width="270"
+                            height="260" />
+                        <div class="team-list-block">
+                            <h3 class="team-list-title">Mario Dorado</h3>
+                            <p class="team-list-text" lang="en">Marketing</p>
+                        </div>
+                    </li>
+                    <li class="team-list-item card-set-item">
+                        <img class="team-list-img" src="./images/imagen7.jpg" alt="imagen7" width="270"
+                            height="260" />
+                        <div class="team-list-block">
+                            <h3 class="team-list-title">Pablo Mijangos</h3>
+                            <p class="team-list-text" lang="en">Diseñador UI</p>
+                            
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+     
+        </section>
     </main>
-    <footer>
-        <div class="footer1">
-        <address>
-            <ul>
-                <li> <a class="contact" href="./index.html">WebStudio</a></li>
-                <li class="adress4">calz.ticoman 500, ciudad de mexico,CDMX, Mexico</li>
-                <li><a class="adress2" href="./info@example.com">info@example.com</a></li>
-                <li class="number2">+52 55 5529 6000</li>
-            </ul>
-        </address>
+    <footer class="footer-section">
+        <div class="footer container">
+            <div class="footer-contact-container">
+                <a class="footer-logo link" href="./index.html" lang="en"><span class="accent">Web</span>Studio</a>
+                <address class="footer-contact">
+                    <ul class="footer-contact-list list">
+                        <li class="footer-contact-item">
+                            <a class="adress link" href="https://goo.gl/maps/uBSWTAJxnbtAAQ7v7" target="_blank"
+                                rel="noreferrer noopener nofollow">Calz. Ticomán 500, Ciudad de México, CDMX, México</a>
+                        </li>
+                        <li class="footer-contact-item">
+                            <a class="footer-contact-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                        </li>
+                        <li class="footer-contact-item">
+                            <a class="footer-contact-link link" href="tel:+380961111111">+52 55 5529 6000</a>
+                        </li>
+                    </ul>
+                </address>
+            </div>
+            
         </div>
-
     </footer>
-    
 </body>
+
 </html>
